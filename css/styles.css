@@ -123,16 +123,16 @@ h2{
 }
 /*Jovenes*/
 #jovenes{
-    right: 0;
-    position: absolute;
-    top: 1500px;
+    margin-top: 60px;
+    background-image: url(../img/Jovenes.JPG);
 }
 #fondo{
-    width: 785px;
-    height: 640px;
+    width: 790px;
+    height: 645px;
     background-color: #ffe9e2;
-    top:1500px;
+    top:1430px;
     position: absolute;
+    left: 10px;
 }
 #frase{
     text-align: left;
@@ -151,12 +151,83 @@ h2{
 }
 #circle-list-lit{
     list-style-type: none;
+    margin-top: 600px;
+    margin-left: 65px;
+    z-index: 1;
+    position: absolute;
 }
 .circle2{
     width: 10px;
     height: 10px;
-    background-color: black;
+    border:1px solid black;
     border-radius: 50%;
     float: left;
-    
+    margin-right: 15px;
+}
+.circle2:hover{
+    background-color: black;
+}
+
+/*Reasons*/
+#title-reason{
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    z-index: 1;
+    position: absolute;
+    margin-left: 95px;
+    margin-top: 800px;
+}
+#icono2{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    position: absolute; 
+    left: 95px;
+    top: 2420px;
+}
+.reason-1 {
+    border: 1px solid #eae9e7;
+    float: left;
+    width: 42%;
+    margin-left: 10%;
+    text-align: left;
+    font-family: "Raleway", sans-serif; 
+}
+.third-content-1 h5 {
+    font-size: 1.25rem; 
+}
+.third-content-2 {
+    margin: 0 auto;
+    margin-right: 5.7%;
+    border: 1px solid #eae9e7;
+    float: right;
+    width: 42%;
+    text-align: left;
+    border-left: 0;
+    font-family: "Raleway", sans-serif; }
+.third-content-2 h5 {
+    font-size: 1.25rem; 
+}
+.box1 {
+    border-bottom: 1px solid #eae9e7;
+    padding: 0px 8% 5% 4%; 
+}
+.box2 {
+    padding: 0px 8% 5% 4%; 
+}
+.box3 {
+    border-bottom: 1px solid #eae9e7;
+    padding: 0px 8% 5% 4%; 
+}
+.box3 p {
+    margin-bottom: 0; 
+}
+.box4 {
+    padding: 0px 8% 5% 4%; 
+}
+.box4 h2 {
+    margin-top: 5px; 
+}
+.box4 p {
+    margin-bottom: 31px;
 }
