@@ -1,0 +1,73 @@
+#header{
+    background-image: url("../img/Portada_Oso.JPG");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 865px;
+}
+#title{
+    position: absolute;
+    color: white;
+    font-size: 14rem;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+    margin-left: 725px;
+    top: 75px;
+}
+#boton{
+    width: 160px;
+    height: 60px;
+    margin-left: 130px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#boton:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0.5px;
+}
+#subtitle{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.7rem;
+    font-weight: bold;
+    letter-spacing: 7px;
+    position: absolute;
+    right: 130px;
+    margin-top: 530px;
+}
+#menu{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 60%;
+    right: 210px;
+    position: absolute;
+    top:45px;
+    font-size: 1.2rem;
+}
+#menu:hover{
+    text-decoration: overline underline;
+}
+#circle-list{
+    list-style-type: none;
+    margin-left: 697px;
+    margin-top: 660px;
+}
+.circle:hover{
+    background-color: white;
+}
+.circle {
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    border-radius: 50%;
+    float: left;
+    margin-right: 24px;
+}

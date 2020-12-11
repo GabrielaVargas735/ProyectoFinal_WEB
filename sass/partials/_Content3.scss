@@ -1,0 +1,43 @@
+#jovenes{
+    background-image: url(../img/Jovenes.JPG);
+}
+#fondo{
+    width: 800px;
+    height: 642px;
+    background-color: #ffe9e2;
+    top:1521px;
+    position: absolute;
+}
+#frase{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+#name{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-left: 100px;
+}
+#circle-list-lit{
+    list-style-type: none;
+    margin-top: -120px;
+    margin-left: 65px;
+    z-index: 1;
+    position: absolute;
+}
+.circle2{
+    width: 10px;
+    height: 10px;
+    border:1px solid black;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.circle2:hover{
+    background-color: black;
+}

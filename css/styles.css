@@ -1,331 +1,332 @@
-body{
-    margin: 0 0 0 0;
-}
-.wrapper{
-    width:1600px;
-    margin:auto;
-}
+@charset "UTF-8";
+body {
+  margin: 0 0 0 0; }
 
-/*Header*/
-#header{
-    background-image: url("../img/Portada_Oso.JPG");
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 865px;
-}
-#title{
-    position: absolute;
-    color: white;
-    font-size: 14rem;
-    font-weight: 100;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 7px;
-    margin-left: 725px;
-    top: 75px;
-}
-#boton{
-    width: 160px;
-    height: 60px;
-    margin-left: 130px;
-    margin-top: 30px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-align: center;
-}
-#boton:hover{
-    background-color: white;
-    color: black;
-    border-radius: 0.5px;
-}
-#subtitle{
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.7rem;
-    font-weight: bold;
-    letter-spacing: 7px;
-    position: absolute;
-    right: 130px;
-    margin-top: 530px;
-}
-#menu{
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: white;
-    margin-left: 60%;
-    right: 210px;
-    position: absolute;
-    top:45px;
-    font-size: 1.2rem;
-}
-#menu:hover{
-    text-decoration: overline underline;
-}
-#circle-list{
-    list-style-type: none;
-    margin-left: 697px;
-    margin-top: 660px;
-}
-.circle:hover{
-    background-color: white;
-}
+.wrapper {
+  width: 1600px;
+  margin: auto; }
+
+#header {
+  background-image: url("../img/Portada_Oso.JPG");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 865px; }
+
+#title {
+  position: absolute;
+  color: white;
+  font-size: 14rem;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 7px;
+  margin-left: 725px;
+  top: 75px; }
+
+#boton {
+  width: 160px;
+  height: 60px;
+  margin-left: 130px;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center; }
+
+#boton:hover {
+  background-color: white;
+  color: black;
+  border-radius: 0.5px; }
+
+#subtitle {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.7rem;
+  font-weight: bold;
+  letter-spacing: 7px;
+  position: absolute;
+  right: 130px;
+  margin-top: 530px; }
+
+#menu {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 60%;
+  right: 210px;
+  position: absolute;
+  top: 45px;
+  font-size: 1.2rem; }
+
+#menu:hover {
+  text-decoration: overline underline; }
+
+#circle-list {
+  list-style-type: none;
+  margin-left: 697px;
+  margin-top: 660px; }
+
+.circle:hover {
+  background-color: white; }
+
 .circle {
-    width: 14px;
-    height: 14px;
-    background-color: black;
-    border-radius: 50%;
-    float: left;
-    margin-right: 24px;
-}
+  width: 14px;
+  height: 14px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+  margin-right: 24px; }
 
-/*The Most Inclusive*/
-#title2{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-    font-size: 3.5rem;
-    text-align: center;
-    padding-top: 85px;
-    margin: 0;
-}
-#subtitle-2{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 3.9rem;
-    text-align: center;
-    margin: 0;
-}
-#text-subtitle{
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bolder;
-    margin: 35px;
-}
-#icono{
-    width: 80px;
-    height: 2px;
-    background-color: black;
-    position: absolute; 
-    left: 750px;
-    top:1210px;
-}
-.text{
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    padding-top: 20px;
-    line-height: 1.5;
-}
-#top{
-    margin-top: 80px;
-}
-/*Jovenes*/
-#jovenes{
-    background-image: url(../img/Jovenes.JPG);
-}
-#fondo{
-    width: 800px;
-    height: 642px;
-    background-color: #ffe9e2;
-    top:1521px;
-    position: absolute;
-}
-#frase{
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 2.3rem;
-    margin-left: 100px;
-    margin-top: 140px;
-}
-#name{
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    font-size: 2rem;
-    margin-left: 100px;
-}
-#circle-list-lit{
-    list-style-type: none;
-    margin-top: -120px;
-    margin-left: 65px;
-    z-index: 1;
-    position: absolute;
-}
-.circle2{
-    width: 10px;
-    height: 10px;
-    border:1px solid black;
-    border-radius: 50%;
-    float: left;
-    margin-right: 15px;
-}
-.circle2:hover{
-    background-color: black;
-}
+#title2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 85px;
+  margin: 0; }
 
-/*Reasons*/
-#title-reason{
-    font-family: 'Raleway', sans-serif;
-    font-weight:700;
-    z-index: 1;
-    position: absolute;
-    margin-left: 93px;
-    margin-top: -200px;
-    font-size: 3.5rem;
-}
-#icono2{
-    width: 80px;
-    height: 2px;
-    background-color: black;
-    position: absolute; 
-    left: 95px;
-    top: 2370px;
-}
-.boxes{
-    margin-top: 300px;
-}
+#subtitle-2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 3.9rem;
+  text-align: center;
+  margin: 0; }
+
+#text-subtitle {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  margin: 35px; }
+
+#icono {
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 750px;
+  top: 1210px; }
+
+.text {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  padding-top: 20px;
+  line-height: 1.5; }
+
+#top {
+  margin-top: 80px; }
+
+#jovenes {
+  background-image: url(../img/Jovenes.JPG); }
+
+#fondo {
+  width: 800px;
+  height: 642px;
+  background-color: #ffe9e2;
+  top: 1521px;
+  position: absolute; }
+
+#frase {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-left: 100px;
+  margin-top: 140px; }
+
+#name {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-left: 100px; }
+
+#circle-list-lit {
+  list-style-type: none;
+  margin-top: -120px;
+  margin-left: 65px;
+  z-index: 1;
+  position: absolute; }
+
+.circle2 {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  float: left;
+  margin-right: 15px; }
+
+.circle2:hover {
+  background-color: black; }
+
+#title-reason {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  z-index: 1;
+  position: absolute;
+  margin-left: 93px;
+  margin-top: -200px;
+  font-size: 3.5rem; }
+
+#icono2 {
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 95px;
+  top: 2370px; }
+
+.boxes {
+  margin-top: 300px; }
+
 .reason1 {
-    border: 1px solid #eae9e7;
-    float: left;
-    width: 42%;
-    margin-left: 10%;
-    text-align: left;
-    font-family: "Raleway", sans-serif; 
-}
+  border: 1px solid #eae9e7;
+  float: left;
+  width: 42%;
+  margin-left: 10%;
+  text-align: left;
+  font-family: "Raleway", sans-serif; }
+
 .reason1 h5 {
-    font-size: 1.25rem; 
-    text-transform: uppercase;
-}
+  font-size: 1.25rem;
+  text-transform: uppercase; }
+
 .reason2 {
-    margin: 0 auto;
-    margin-right: 5.7%;
-    border: 1px solid #eae9e7;
-    float: right;
-    width: 42%;
-    text-align: left;
-    border-left: 0;
-    font-family: "Raleway", sans-serif; 
-}
+  margin: 0 auto;
+  margin-right: 5.7%;
+  border: 1px solid #eae9e7;
+  float: right;
+  width: 42%;
+  text-align: left;
+  border-left: 0;
+  font-family: "Raleway", sans-serif; }
+
 .reason2 h5 {
-    font-size: 1.25rem; 
-    text-transform: uppercase;
-}
+  font-size: 1.25rem;
+  text-transform: uppercase; }
+
 .box1 {
-    border-bottom: 1px solid #eae9e7;
-    padding: 0px 8% 5% 4%; }
-    .box2 {
-        padding: 0px 8% 5% 4%; 
-    }
-    .box3 {
-        border-bottom: 1px solid #eae9e7;
-        padding: 0px 8% 5% 4%; 
-    }
-    .box3 p {
-        margin-bottom: 0; 
-    }
-    .box4 {
-        padding: 0px 8% 5% 4%; 
-    }
-    .box4 h2 {
-        margin-top: 5px; }
-    .box4 p {
-        margin-bottom: 31px; 
-    }
-.span{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-}
-#more-reasons{
-    width: 200px;
-    height: 50px;
-    margin-top: 100px;
-    background-color: white;
-    border:1px solid black;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-    position: absolute;
-    left: 720px;
-    top:2820px;
-}
-#more-reasons:hover{
-    background-color: black;
-    color: white;
-}
-/*Manos*/
-#manos{
-    background-image: url(../img/Manos.JPG);
-    background-repeat: no-repeat;
-    width: 1590px;
-    height: 700px;
-    margin-top: 500px;
-    background-size: cover;
-}
-h3{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 3rem;
-    text-align: center;
-    color: white; 
-    position: absolute;
-    top:3270px;
-    left: 450px;
-}
-#love-quotes{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    position: absolute;
-    top:3540px;
-    color: white;
-    left: 650px;
-}
-#love-quotes a{
-    color:white;
-}
-/*Imagenes*/
-#title3{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 3rem;
-    margin-left: 93px;
-    margin-top: 90px;
-}
-#icono3{
-    width: 80px;
-    height: 2px;
-    background-color: black;
-    margin-left: 95px;
-}
-#fondo-cafe{
-    width: 1400px;
-    height: 2000px;
-    background-color: #f2f4f5;
-}
-#traje{
-    margin-left: 95px;
-    margin-top: 90px;
-}
-#montañas{
-    width: 745px;
-    height: 375px;
-    margin-left: 100px;
-    margin-top:90px;
-    position: absolute;
-}
-#cafe{
-    width: 330px;
-    height: 340px;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 507px;
-}
-#silencio{
-    width: 330px;
-    height: 340px;
-    position: absolute;
-    margin-left: 517px;
-    margin-top: 507px;
-}
+  border-bottom: 1px solid #eae9e7;
+  padding: 0px 8% 5% 4%; }
+
+.box2 {
+  padding: 0px 8% 5% 4%; }
+
+.box3 {
+  border-bottom: 1px solid #eae9e7;
+  padding: 0px 8% 5% 4%; }
+
+.box3 p {
+  margin-bottom: 0; }
+
+.box4 {
+  padding: 0px 8% 5% 4%; }
+
+.box4 h2 {
+  margin-top: 5px; }
+
+.box4 p {
+  margin-bottom: 31px; }
+
+.span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
+
+#more-reasons {
+  width: 200px;
+  height: 50px;
+  margin-top: 100px;
+  background-color: white;
+  border: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  position: absolute;
+  left: 720px;
+  top: 2820px;
+  border-radius: 5px 5px 5px 5px; }
+
+#more-reasons:hover {
+  background-color: black;
+  color: white; }
+
+#manos {
+  background-image: url(../img/Manos.JPG);
+  background-repeat: no-repeat;
+  width: 1590px;
+  height: 700px;
+  margin-top: 500px;
+  background-size: cover; }
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 3270px;
+  left: 450px; }
+
+#love-quotes {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  top: 3540px;
+  color: white;
+  left: 650px; }
+
+#love-quotes a {
+  color: white; }
+
+#title3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-left: 93px;
+  margin-top: 90px; }
+
+#icono3 {
+  width: 80px;
+  height: 2px;
+  background-color: black;
+  margin-left: 95px; }
+
+#traje {
+  margin-left: 95px;
+  margin-top: 90px; }
+
+#montañas {
+  width: 745px;
+  height: 375px;
+  margin-left: 100px;
+  margin-top: 90px;
+  position: absolute; }
+
+#cafe {
+  width: 330px;
+  height: 340px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 507px; }
+
+#silencio {
+  width: 330px;
+  height: 340px;
+  position: absolute;
+  margin-left: 517px;
+  margin-top: 507px; }
+
+#browser {
+  width: 200px;
+  height: 50px;
+  background-color: #f2f4f5;
+  border: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 2px 2px 2px 2px;
+  margin-top: 950px;
+  position: absolute; }
