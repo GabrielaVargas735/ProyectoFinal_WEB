@@ -82,7 +82,7 @@ body{
 }
 
 /*The Most Inclusive*/
-h2{
+#title2{
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     font-size: 3.5rem;
@@ -123,16 +123,14 @@ h2{
 }
 /*Jovenes*/
 #jovenes{
-    margin-top: 60px;
     background-image: url(../img/Jovenes.JPG);
 }
 #fondo{
-    width: 790px;
-    height: 645px;
+    width: 800px;
+    height: 642px;
     background-color: #ffe9e2;
-    top:1430px;
+    top:1521px;
     position: absolute;
-    left: 10px;
 }
 #frase{
     text-align: left;
@@ -151,7 +149,7 @@ h2{
 }
 #circle-list-lit{
     list-style-type: none;
-    margin-top: 600px;
+    margin-top: -120px;
     margin-left: 65px;
     z-index: 1;
     position: absolute;
@@ -174,8 +172,9 @@ h2{
     font-weight:700;
     z-index: 1;
     position: absolute;
-    margin-left: 95px;
-    margin-top: 800px;
+    margin-left: 93px;
+    margin-top: -200px;
+    font-size: 3.5rem;
 }
 #icono2{
     width: 80px;
@@ -183,9 +182,12 @@ h2{
     background-color: black;
     position: absolute; 
     left: 95px;
-    top: 2420px;
+    top: 2370px;
 }
-.reason-1 {
+.boxes{
+    margin-top: 300px;
+}
+.reason1 {
     border: 1px solid #eae9e7;
     float: left;
     width: 42%;
@@ -193,10 +195,11 @@ h2{
     text-align: left;
     font-family: "Raleway", sans-serif; 
 }
-.third-content-1 h5 {
+.reason1 h5 {
     font-size: 1.25rem; 
+    text-transform: uppercase;
 }
-.third-content-2 {
+.reason2 {
     margin: 0 auto;
     margin-right: 5.7%;
     border: 1px solid #eae9e7;
@@ -204,30 +207,125 @@ h2{
     width: 42%;
     text-align: left;
     border-left: 0;
-    font-family: "Raleway", sans-serif; }
-.third-content-2 h5 {
+    font-family: "Raleway", sans-serif; 
+}
+.reason2 h5 {
     font-size: 1.25rem; 
+    text-transform: uppercase;
 }
 .box1 {
     border-bottom: 1px solid #eae9e7;
-    padding: 0px 8% 5% 4%; 
+    padding: 0px 8% 5% 4%; }
+    .box2 {
+        padding: 0px 8% 5% 4%; 
+    }
+    .box3 {
+        border-bottom: 1px solid #eae9e7;
+        padding: 0px 8% 5% 4%; 
+    }
+    .box3 p {
+        margin-bottom: 0; 
+    }
+    .box4 {
+        padding: 0px 8% 5% 4%; 
+    }
+    .box4 h2 {
+        margin-top: 5px; }
+    .box4 p {
+        margin-bottom: 31px; 
+    }
+.span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
-.box2 {
-    padding: 0px 8% 5% 4%; 
+#more-reasons{
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    background-color: white;
+    border:1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    position: absolute;
+    left: 720px;
+    top:2820px;
 }
-.box3 {
-    border-bottom: 1px solid #eae9e7;
-    padding: 0px 8% 5% 4%; 
+#more-reasons:hover{
+    background-color: black;
+    color: white;
 }
-.box3 p {
-    margin-bottom: 0; 
+/*Manos*/
+#manos{
+    background-image: url(../img/Manos.JPG);
+    background-repeat: no-repeat;
+    width: 1590px;
+    height: 700px;
+    margin-top: 500px;
+    background-size: cover;
 }
-.box4 {
-    padding: 0px 8% 5% 4%; 
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    color: white; 
+    position: absolute;
+    top:3270px;
+    left: 450px;
 }
-.box4 h2 {
-    margin-top: 5px; 
+#love-quotes{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top:3540px;
+    color: white;
+    left: 650px;
 }
-.box4 p {
-    margin-bottom: 31px;
+#love-quotes a{
+    color:white;
+}
+/*Imagenes*/
+#title3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 93px;
+    margin-top: 90px;
+}
+#icono3{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    margin-left: 95px;
+}
+#fondo-cafe{
+    width: 1400px;
+    height: 2000px;
+    background-color: #f2f4f5;
+}
+#traje{
+    margin-left: 95px;
+    margin-top: 90px;
+}
+#montañas{
+    width: 745px;
+    height: 375px;
+    margin-left: 100px;
+    margin-top:90px;
+    position: absolute;
+}
+#cafe{
+    width: 330px;
+    height: 340px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 507px;
+}
+#silencio{
+    width: 330px;
+    height: 340px;
+    position: absolute;
+    margin-left: 517px;
+    margin-top: 507px;
 }
